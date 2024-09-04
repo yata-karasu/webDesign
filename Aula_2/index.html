@@ -1,11 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>AULA 2</h1>
-</body>
+    <body>
+
+        <hr>
+        <h1>FORMULARIO DE CONTRATAÇÃO</h1>
+        <hr>
+        <h2>preencha os campos abaixo com suas informações pessoais</h2>
+        <br>
+        <form action="https://www.w3schools.com/action_page.php">
+            <fieldset>
+                <h3>Dados de Acesso</h3>
+                <b>usuário</b>
+                <br>
+                <input type="text" name="usuario" id="usuario">
+                <br>
+                <b>senha</b>
+                <br>
+                <input type="password" name="senha" id="senha">
+                <br>
+                <b>data</b>
+                <br>
+                <input type="date" name="data" id="data">
+
+                <h3>Dados Pessoais</h3>
+                <b>nome</b>
+                <br>
+                <input type="text" name="nome" id="nome">
+                <br>
+                <b>endereço</b>
+                <br>
+                <input type="text" name="endereço" id="endereço">
+                <br>
+                <b>numero</b>
+                <br>
+                <input type="number" name="numero" id="numero">
+                <br>
+                <b>complemento</b>
+                <br>
+                <input type="text" name="complemento" id="complemento">
+                <br>
+                <b>cidade</b>
+                <br>
+                <input list="cidade" name="cidade">
+                    <datalist id="cidade">
+                        <option value="sorocaba">
+                        <option value="salto">
+                        <option value="itu">
+                        <option value="campinas">
+                        <option value="indaiatuba">
+                    </datalist>
+                <br>
+                <b>estado</b>
+                <br>
+                <select id="estado" name="estado">
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SC">SC</option>
+                    <option value="PR">PR</option>
+                    <option value="MG">MG</option>
+                </select>
+                <br>
+                <b>CEP</b>
+                <br>
+                <input type="text" name="CEP" id="CEP">
+                <br><br>
+                <b>genero</b>
+                <br>
+                <input type="radio" name="genero" id="masculino" value="masculino">
+                <label for="masculino">masculino</label><br>
+                <input type="radio" name="genero" id="feminino" value="feminino">
+                <label for="feminino">feminino</label><br>
+                <input type="radio" name="genero" id="prefiro não responder" value="prefiro não responder">
+                <label for="prefiro não responder">prefiro não responder</label><br>
+                <br>
+                <b>curso</b>
+                <br>
+                <input type="checkbox" name="curso" id="ADS" value="ADS">
+                <label for="ADS">ADS</label><br>
+                <input type="checkbox" name="curso" id="jogos" value="jogos">
+                <label for="jogos">jogos</label><br>
+                <input type="checkbox" name="curso" id="gestão de TI" value="gestão de TI">
+                <label for="gestão de TI">gestão de TI</label><br>
+                <input type="checkbox" name="curso" id="banco de dados" value="banco de dados">
+                <label for="banco de dados">banco de dados</label><br>
+                <br>
+                <b>modelo</b>
+                <br>
+                <input type="radio" name="modelo" id="presencial" value="presencial">
+                <label for="presencial">presencial</label><br>
+                <input type="radio" name="modelo" id="EAD" value="EAD">
+                <label for="EAD">EAD</label><br>
+                <input type="radio" name="modelo" id="semi-presencial" value="semi-presencial">
+                <label for="semi-presencial">semi-presencial</label><br>
+
+
+
+            
+                <br><br>
+                <input type="reset" value="resetar dados">
+                <br>
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+    </body>
 </html>
