@@ -29,14 +29,18 @@ nav {
     margin-right: 20px;
 }
 
-
 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.am {
     text-decoration: none;
     color: #ffffff;
 }
 
 
-a:hover{
+.am:hover{
     color: #de2e2e;
 }
 
@@ -44,10 +48,10 @@ a::selection{
     color:#000000;
     background-color: #000000;
 }
-
 img{
-    width: 400px;
-    border-radius: 15%;
-    border: 2px solid #000000;
+    padding-left: 50px;
 
+}
+b{
+    padding: 15px;
 }
