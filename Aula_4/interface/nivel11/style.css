@@ -19,15 +19,15 @@ body
 
 .cat
 {
-    border: 5px solid green;
+    border: 5px solid yellow;
 }
 
 .horse
 {
-    border: 5px solid yellow;
+    border: 5px solid red;
 }
 
 .camel
 {
-    border: 5px solid red;
+    border: 5px solid green;
 }
