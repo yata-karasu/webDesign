@@ -1,0 +1,39 @@
+img
+{
+    width: 120px;
+    height: 120px;
+}
+
+.circle
+{
+    border-radius: 50%;
+}
+
+body
+{
+    display: flex;
+    width: 1300px;
+    height: 640px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.animals
+{
+
+}
+
+.cat
+{
+    border: 5px solid green;
+}
+
+.horse
+{
+    border: 5px solid yellow;
+}
+
+.camel
+{
+    border: 5px solid red;
+}

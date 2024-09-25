@@ -1,0 +1,33 @@
+img
+{
+    width: 120px;
+    height: 120px;
+}
+
+.circle
+{
+    border-radius: 50%;
+}
+
+
+.animals
+{
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+.cat
+{
+    border: 5px solid green;
+}
+
+.horse
+{
+    border: 5px solid yellow;
+}
+
+.camel
+{
+    border: 5px solid red;
+}
