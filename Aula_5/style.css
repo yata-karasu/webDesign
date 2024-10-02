@@ -1,0 +1,64 @@
+main
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.divimg
+{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.img2
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.divt
+{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 520px;
+    height: 330px;
+}
+
+.divb
+{
+    display: flex;
+    justify-content: center;
+}
+
+.divb2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button
+{
+    width: 190px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.div2
+{
+    margin-top: 30px;
+}
